@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    color: aqua;
+}
+
+main{
+    margin: auto;
+    border: 3px solid ;
+}
+
+nav{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    color: rgb(5, 77, 41);
+    text-decoration: none;
+}
