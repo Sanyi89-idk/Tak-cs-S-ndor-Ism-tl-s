@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+
+}
+table{
+    width: 80%;
+    margin:auto;
+}
+
+th{
+    background-color: blue;
+    color:red;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tr:hover {
+    background-color: rgb(33, 2, 117);
+    color: rgb(1, 158, 106);
+    cursor: grab;
+}
